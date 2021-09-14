@@ -27,6 +27,14 @@ switch ($method){
 
         break;
 
+    case "visionimagetext":
+
+        $respuesta = ControllerProducts::ctrPostImageTexto($obj);
+
+        echo $respuesta;
+
+        break;
+
 
     default:
         echo json_encode(

@@ -12,4 +12,8 @@ class Ruta{
 
 	}
 
+	static public function ctrVisionGoogleCloudAPI(){
+
+        return "https://vision.googleapis.com/v1/images:annotate?key=AIzaSyCoiwg_wwglI8bOEiXlePkCRq3GL7S2uTk";
+    }
 }

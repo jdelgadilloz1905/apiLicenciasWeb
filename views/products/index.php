@@ -35,6 +35,15 @@ switch ($method){
 
         break;
 
+    case "uploadimage":
+
+        $respuesta = ControllerProducts::ctrCargaImagen($obj);
+
+        echo $respuesta;
+
+        break;
+
+
 
     default:
         echo json_encode(

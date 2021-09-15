@@ -5,6 +5,7 @@
 ===============================*/
 require_once "controller/template.controller.php";
 require_once "controller/products.controller.php";
+require_once "controller/class.fileuploader.php";
 
 
 /*=============================

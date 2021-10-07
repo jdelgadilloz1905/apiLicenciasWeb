@@ -5,6 +5,7 @@
 ===============================*/
 require_once "controller/template.controller.php";
 require_once "controller/products.controller.php";
+require_once "controller/profit.controller.php";
 require_once "controller/class.fileuploader.php";
 
 
@@ -13,6 +14,7 @@ require_once "controller/class.fileuploader.php";
 ===============================*/
 
 require_once "models/products.model.php";
+require_once "models/profit.model.php";
 require_once "models/rutas.php";
 
 /*=============================

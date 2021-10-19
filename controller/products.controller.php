@@ -11,7 +11,7 @@ class ControllerProducts{
 
             $max = strlen($pattern)-1;
 
-            for($i = 0; $i < 24; $i++){
+            for($i = 0; $i < 50; $i++){
 
                 $key .= $pattern[mt_rand(0,$max)];
 

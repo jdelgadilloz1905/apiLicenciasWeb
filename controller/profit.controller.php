@@ -14,13 +14,15 @@ class ControllerProfit{
 
             $mail->isMail();
 
-            $mail->setFrom('jorge.delgadillo@bluepoint.com', 'PEDIDOS APP');
+            $mail->setFrom($data["email"], 'PEDIDOS APP');
 
             //$mail->addReplyTo('hola@prujula.com', 'PRUJULA');
 
             $mail->Subject = "Nuevo Pedido ". $data["doc_num"];
 
-            $mail->addAddress("jdelgadilloz1905@gmail.com");
+            $mail->addAddress($data["email"]);
+
+//<img style="padding:20px; width:15%" src="https://www.estudio57.net/apilicenciasweb/views/img/satvicos/logo_satvico.jpg">
 
             $mail->msgHTML('<div style="width:100%; background:#eee; position:relative; font-family:sans-serif; padding-bottom:40px">
 
@@ -34,7 +36,7 @@ class ControllerProfit{
 
 									<center>
 
-									<img style="padding:20px; width:15%" src="https://www.estudio57.net/apilicenciasweb/views/img/satvicos/logo_satvico.jpg">
+									
 
 									<h3 style="font-weight:100; color:#999">NUEVO PEDIDO CREADO '.$data["doc_num"].'</h3>
 

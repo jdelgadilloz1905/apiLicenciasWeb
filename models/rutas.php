@@ -16,4 +16,12 @@ class Ruta{
 
         return "https://vision.googleapis.com/v1/images:annotate?key=AIzaSyCoiwg_wwglI8bOEiXlePkCRq3GL7S2uTk";
     }
+
+    static public function ctrRutaImagen(){
+
+
+        return "https://estudio57.net/apilicenciasweb/";
+
+
+    }
 }

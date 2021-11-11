@@ -203,6 +203,7 @@ class ControllerProducts{
             "statusCode" => 200,
             "cantidadImagen"=>count($_FILES['imagen']['tmp_name']),
             "imageInfo"=> $fileList,
+            "url" => Ruta::ctrRutaImagen(),
             "error" => false,
 
         ));
